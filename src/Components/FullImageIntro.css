@@ -1,0 +1,22 @@
+.view {
+    background: url("http://blog.eventtus.com/wp-content/uploads/2017/05/53-1.jpg")no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+/* 
+.view * {
+    position: relative;
+} */
+
+.tint:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
